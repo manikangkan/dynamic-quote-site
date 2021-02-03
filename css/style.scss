@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@500&family=Yusei+Magic&display=swap");
 
 $background-color: rgb(199, 199, 199);
-$primary-color: teal;
+$primary-color: rgb(59, 59, 59);
 $secondary-color: #fff;
 
 body {
@@ -15,6 +15,12 @@ body {
   place-content: center;
   background-color: $background-color;
 }
+
+::selection {
+  color: $secondary-color;
+  background-color: $primary-color;
+}
+
 .container {
   width: 900px;
   height: 500px;
