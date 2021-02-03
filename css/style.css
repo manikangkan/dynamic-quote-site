@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: Poppins;
+  height: 100vh;
+  width: 100vw;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  background-color: #c7c7c7;
+}
+
+.container {
+  width: 900px;
+  height: 500px;
+  background-color: teal;
+}
+
+.container__main {
+  width: 900px;
+  height: 500px;
+  background-color: #fff;
+  position: relative;
+  top: -40px;
+  left: -40px;
+}
+
+.container__main .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 90px;
+}
+
+.container__main .btn button {
+  font-size: 25px;
+  padding: 20px;
+  width: 12.5em;
+  border: none;
+  outline: none;
+  background-color: teal;
+  color: #fff;
+}
+
+.container__main .btn button:hover {
+  background-color: #008a8a;
+}
+
+.container__main .btn button:active {
+  -webkit-transform: scale(0.99);
+          transform: scale(0.99);
+}
+
+.container__content {
+  padding: 100px 90px 0;
+  font-size: 25px;
+  position: relative;
+  text-align: center;
+  height: 260px;
+}
+
+.container__content p:nth-child(1) {
+  font-size: 100px;
+  font-family: Regattia;
+  color: rgba(0, 128, 128, 0.5);
+  -webkit-transform: translateX(3.4em);
+          transform: translateX(3.4em);
+  top: -70px;
+  position: absolute;
+}
+
+.container__content p:nth-child(2) {
+  font-weight: 500;
+}
+
+.container__content p:nth-child(3) {
+  color: #5f5f5f;
+}
+
+.container__social {
+  position: absolute;
+  right: -95px;
+  top: 40px;
+}
+
+.container__social .icon {
+  width: 90px;
+  height: 90px;
+  margin: 20px 0;
+  background-color: #fff;
+  border-right: 5px solid teal;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+.container__social i {
+  color: teal;
+  cursor: pointer;
+}
+
+.container__social i:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+.container__social .icon:nth-child(1) i:hover {
+  color: #1da1f2;
+}
+
+.container__social .icon:nth-child(2) i:hover {
+  color: #3b5998;
+}
+
+.container__social .icon:nth-child(3) i:hover {
+  color: #1769ff;
+}
+/*# sourceMappingURL=style.css.map */
